@@ -215,8 +215,8 @@ sm2-priv,                       key,            0x1310,         draft,      SM2 
 ed448-priv,                     key,            0x1311,         draft,      Ed448 private key
 x448-priv,                      key,            0x1312,         draft,      X448 private key
 mlkem-512-priv,                 key,            0x1313,         draft,      ML-KEM 512 private key; as specified by FIPS 203
-mlkem-768-priv,                 key,            0x1314,         draft,      ML-KEM 768 public key; as specified by FIPS 203
-mlkem-1024-priv,                key,            0x1315,         draft,      ML-KEM 1024 public key; as specified by FIPS 203
+mlkem-768-priv,                 key,            0x1314,         draft,      ML-KEM 768 private key; as specified by FIPS 203
+mlkem-1024-priv,                key,            0x1315,         draft,      ML-KEM 1024 private key; as specified by FIPS 203
 jwk_jcs-priv,                   key,            0x1316,         draft,      JSON object containing only the required members of a JWK (RFC 7518 and RFC 7517) representing the private key. Serialisation based on JCS (RFC 8785)
 mldsa-44-priv,                  key,            0x1317,         draft,      ML-DSA 44 private key; expanded key format (2560 bytes) as specified by FIPS 204
 mldsa-65-priv,                  key,            0x1318,         draft,      ML-DSA 65 private key; expanded key format (4032 bytes) as specified by FIPS 204
