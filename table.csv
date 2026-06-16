@@ -44,7 +44,7 @@ rlp,                            serialization,  0x60,           draft,      recu
 bencode,                        serialization,  0x63,           draft,      bencode
 dag-pb,                         ipld,           0x70,           permanent,  MerkleDAG protobuf
 dag-cbor,                       ipld,           0x71,           permanent,  MerkleDAG cbor
-libp2p-key,                     ipld,           0x72,           permanent,  Libp2p Public Key
+libp2p-key,                     ipld,           0x72,           permanent,  Libp2p public key
 git-raw,                        ipld,           0x78,           permanent,  Raw Git object
 torrent-info,                   ipld,           0x7b,           draft,      Torrent file info field (bencoded)
 torrent-file,                   ipld,           0x7c,           draft,      Torrent file (bencoded)
@@ -164,11 +164,11 @@ ripemd-160,                     multihash,      0x1053,         draft,
 ripemd-256,                     multihash,      0x1054,         draft,
 ripemd-320,                     multihash,      0x1055,         draft,
 x11,                            multihash,      0x1100,         draft,
-p256-pub,                       key,            0x1200,         draft,      P-256 public Key (compressed)
-p384-pub,                       key,            0x1201,         draft,      P-384 public Key (compressed)
-p521-pub,                       key,            0x1202,         draft,      P-521 public Key (compressed)
-ed448-pub,                      key,            0x1203,         draft,      Ed448 public Key
-x448-pub,                       key,            0x1204,         draft,      X448 public Key
+p256-pub,                       key,            0x1200,         draft,      P-256 public key (compressed)
+p384-pub,                       key,            0x1201,         draft,      P-384 public key (compressed)
+p521-pub,                       key,            0x1202,         draft,      P-521 public key (compressed)
+ed448-pub,                      key,            0x1203,         draft,      Ed448 public key
+x448-pub,                       key,            0x1204,         draft,      X448 public key
 rsa-pub,                        key,            0x1205,         draft,      RSA public key. DER-encoded ASN.1 type RSAPublicKey according to IETF RFC 8017 (PKCS #1)
 sm2-pub,                        key,            0x1206,         draft,      SM2 public key (compressed)
 vlad,                           vlad,           0x1207,         draft,      Verifiable Long-lived ADdress
